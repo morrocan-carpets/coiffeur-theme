@@ -1,0 +1,98 @@
+{
+  "sidebar": {
+    "search-2": {
+      "title": ""
+    },
+    "categories-2": {
+      "title": "Categories",
+      "count": 1,
+      "hierarchical": 0,
+      "dropdown": 0
+    },
+    "la-recent-posts-2": {
+      "title": "Popular post",
+      "number": 4,
+      "show_date": true
+    },
+    "archives-2": {
+      "title": "Archives",
+      "count": 0,
+      "dropdown": 1
+    },
+    "tag_cloud-2": {
+      "title": "Tags",
+      "count": 0,
+      "taxonomy": "post_tag"
+    }
+  },
+  "sidebar-shop-filter": {
+    "woocommerce_product_categories-3": {
+      "title": "CATEGORIES",
+      "orderby": "order",
+      "dropdown": 0,
+      "count": 0,
+      "hierarchical": 1,
+      "show_children_only": 0,
+      "hide_empty": 0,
+      "max_depth": ""
+    },
+    "la-price-filter-list-2": {
+      "title": "BY PRICE",
+      "text": "0|20\r\n20|30\r\n30|40\r\n40|50\r\n50|70\r\n70|"
+    },
+    "woocommerce_layered_nav-2": {
+      "title": "BY COLOR",
+      "attribute": "color",
+      "display_type": "swatches",
+      "query_type": "or"
+    },
+    "woocommerce_layered_nav-6": {
+      "title": "BY SIZE",
+      "attribute": "size",
+      "display_type": "list",
+      "query_type": "or"
+    },
+    "woocommerce_layered_nav-7": {
+      "title": "BY BRANDS",
+      "attribute": "brand",
+      "display_type": "list",
+      "query_type": "or"
+    }
+  },
+  "mgana_widget_area_1": {
+    "woocommerce_product_search-2": {
+      "title": ""
+    },
+    "woocommerce_product_categories-2": {
+      "title": "CATEGORIES",
+      "orderby": "order",
+      "dropdown": 0,
+      "count": 0,
+      "hierarchical": 1,
+      "show_children_only": 0,
+      "hide_empty": 0,
+      "max_depth": ""
+    },
+    "woocommerce_price_filter-2": {
+      "title": "BY PRICE"
+    },
+    "woocommerce_layered_nav-3": {
+      "title": "BY COLOR",
+      "attribute": "color",
+      "display_type": "swatches",
+      "query_type": "or"
+    },
+    "woocommerce_layered_nav-4": {
+      "title": "BY SIZE",
+      "attribute": "size",
+      "display_type": "list",
+      "query_type": "or"
+    },
+    "woocommerce_layered_nav-5": {
+      "title": "BY BRANDS",
+      "attribute": "brand",
+      "display_type": "list",
+      "query_type": "or"
+    }
+  }
+}

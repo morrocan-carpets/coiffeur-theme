@@ -1,0 +1,46 @@
+// not an elementor widget
+
+:is( .elementor-widget-paypal-button, .elementor-widget-woocommerce-product-add-to-cart).vamtam-has-theme-widget-styles {
+	.woosw-btn {
+		width: 50px !important;
+		height: 50px;
+		border: none;
+		padding: 0;
+		background-color: transparent;
+		color: var(--vamtam-accent-color-1);
+		font-size: 19px;
+		flex-shrink: 1;
+		flex-basis: 50px !important;
+
+		&::before {
+			content: "\f004";
+			display: inline-block;
+			font-family: "Font Awesome 5 Free" !important;
+			font-weight: 400;
+			color: var(--vamtam-accent-color-2);
+			vertical-align: middle;
+			margin-right: 0;
+		}
+
+		&:hover {
+			background-color: transparent;
+			color: var(--vamtam-accent-color-1);
+		}
+
+		&.woosw-added {
+			&::before {
+				content: "\f004";
+				font-weight: 900;
+			}
+
+			background-color: transparent;
+			color: var(--vamtam-accent-color-1);
+		}
+
+		&.vamtam-loading {
+			opacity: 0.3;
+			pointer-events: none;
+			cursor: wait;
+		}
+	}
+}

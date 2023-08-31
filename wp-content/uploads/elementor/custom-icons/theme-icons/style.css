@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'theme-icons';
+  src:  url('fonts/theme-icons.eot?rgf8t4');
+  src:  url('fonts/theme-icons.eot?rgf8t4#iefix') format('embedded-opentype'),
+    url('fonts/theme-icons.ttf?rgf8t4') format('truetype'),
+    url('fonts/theme-icons.woff?rgf8t4') format('woff'),
+    url('fonts/theme-icons.svg?rgf8t4#theme-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="vamtam-theme-"], [class*=" vamtam-theme-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'theme-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vamtam-theme-knife:before {
+  content: "\e90b";
+}
+.vamtam-theme-mustage:before {
+  content: "\e90c";
+}
+.vamtam-theme-percent:before {
+  content: "\e900";
+}
+.vamtam-theme-bag:before {
+  content: "\e90d";
+}
+.vamtam-theme-arrow-right-top:before {
+  content: "\e901";
+}
+.vamtam-theme-quote:before {
+  content: "\e902";
+}
+.vamtam-theme-star-font:before {
+  content: "\e903";
+}
+.vamtam-theme-arrow-top:before {
+  content: "\e904";
+}
+.vamtam-theme-arrow-bottom:before {
+  content: "\e905";
+}
+.vamtam-theme-arrow-left:before {
+  content: "\e910";
+}
+.vamtam-theme-arrow-right:before {
+  content: "\e90f";
+}
+.vamtam-theme-close:before {
+  content: "\e906";
+}
+.vamtam-theme-menu:before {
+  content: "\e90a";
+}
+.vamtam-theme-plus:before {
+  content: "\e907";
+}
+.vamtam-theme-add-to-cart:before {
+  content: "\e909";
+}
+.vamtam-theme-minus:before {
+  content: "\e908";
+}

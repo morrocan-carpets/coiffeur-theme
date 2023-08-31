@@ -1,0 +1,24 @@
+2023-08-23T21:03:07+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on null in /home/u170821614/domains/workshopdevtool.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:304
+Stack trace:
+#0 /home/u170821614/domains/workshopdevtool.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(177): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions()
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions()
+#2 /home/u170821614/domains/workshopdevtool.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func()
+#3 /home/u170821614/domains/workshopdevtool.com/public_html/wp-includes/class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#4 /home/u170821614/domains/workshopdevtool.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/u170821614/domains/workshopdevtool.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u170821614/domains/workshopdevtool.com/public_html/wp-admin/admin-ajax.php(188): do_action()
+#7 {main}
+  thrown in /home/u170821614/domains/workshopdevtool.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 304
+
+2023-08-23T21:08:52+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on null in /home/u170821614/domains/workshopdevtool.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:304
+Stack trace:
+#0 /home/u170821614/domains/workshopdevtool.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(177): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions()
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions()
+#2 /home/u170821614/domains/workshopdevtool.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func()
+#3 /home/u170821614/domains/workshopdevtool.com/public_html/wp-includes/class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#4 /home/u170821614/domains/workshopdevtool.com/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/u170821614/domains/workshopdevtool.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u170821614/domains/workshopdevtool.com/public_html/wp-admin/admin-ajax.php(188): do_action()
+#7 {main}
+  thrown in /home/u170821614/domains/workshopdevtool.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 304
+
